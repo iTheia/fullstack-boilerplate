@@ -1,0 +1,20 @@
+{
+    "name": "@ventas/common",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "build": "rimraf ./dist && tsc"
+    },
+    "dependencies": {
+        "rimraf": "^3.0.2",
+        "@ventas/common": "1.0.0",
+        "yup": "^0.29.3"
+    },
+    "devDependencies": {
+        "@types/yup": "0.29.3",
+        "rimraf": "^3.0.2",
+        "typescript": "^3.9.7"
+    }
+}
